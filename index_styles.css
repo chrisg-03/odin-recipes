@@ -1,0 +1,61 @@
+nav {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: rgba(85, 86, 91, 0.4);
+    background-color: white;
+}
+
+.home_container {
+    width: 35%;
+    text-align: right;
+}
+
+.home {
+    font-size: 32px;
+    font-style: oblique;
+    color: rgb(71, 88, 41);
+    text-decoration: none;
+}
+
+.menu_container {
+    width: 65%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(71, 88, 41);
+}
+
+.image_container {
+    display: flex;
+    margin: 0 3%;
+}
+
+.image_container ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.image_container li p {
+    font-size: 24px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(71, 88, 41)
+}
+
+body {
+    background-color: rgba(239, 232, 213, 0.8);
+}

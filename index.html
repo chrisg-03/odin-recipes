@@ -2,16 +2,44 @@
 <html lang = "en">
     <head>
         <meta charset = "utf-8">
+        <meta name="viewport" width="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index_styles.css">
+        <link rel="icon" href="./images/logo.png" type="images/png">
         <title>Odin Recipes</title>
     </head>
-
     <body>
-        <h1>Odin Recipes</h1>
-            <a href = "./about.html"><h3>About me</h3></a>
-            <p><strong>Contact</strong><br>
-            <em>odin_mail@mymail.com</em><br><br>
-            </p>
-            <a href = "./recipes/bolognese.html" target = "_blank" rel = "noopener noreferrer"><strong>Grandma's Bolognese Recipe</strong></a> <br>
-            <img src = "./images/bolognese.jpeg" alt = "Spaghetti Bolognese" width = 450>
+        <nav>
+            <div class="home_container">
+                <a class="home" href="./index.html">odin|Recipes</a>
+            </div>
+            <div class="menu_container">
+                <ul>
+                    <li><a class="menu" href="./recipes/apple_crumble.html">Apple Crumble</a></li>
+                    <li><a class="menu" href="./recipes/bolognese.html">Grandma's Bolognese</a></li>
+                    <li><a class="menu" href="./recipes/paprika_chicken.html">Paprika Chicken</a></li>
+                    <li><a class="menu" href="./recipes/chicken_paella.html">Chicken Paella</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="image_container">
+            <ul>
+                <li>
+                    <a href="recipes/apple_crumble.html"><img src="./images/apple-crumble.jpg" alt="apple crumble" width=450 height=300></a>
+                    <p>Apple Crumble Recipe</p> 
+                </li>
+                <li>
+                    <a href="recipes/bolognese.html"><img src="./images/bolognese.jpeg" alt="Grandma's Bolognese" width=450 height=300></a>
+                    <p>Grandma's Bolognese Recipe</p> 
+                </li>
+                <li>
+                    <a href="recipes/paprika_chicken.html"><img src="./images/paprika-chicken.jpg" alt="Paprika Chicken" width=450 height=300></a>
+                    <p>Paprika Chicken</p>
+                </li>
+                <li>
+                    <a href="recipes/chicken_paella.html"><img src="./images/chicken-paella.jpg" alt="Chicken Paella" width=450 height=300></a>
+                    <p>Chicken Paella</p>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>
